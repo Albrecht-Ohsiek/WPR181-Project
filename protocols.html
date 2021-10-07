@@ -1,13 +1,224 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>internet protocol</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto auto;
+            grid-gap: 20px;
+            justify-self: center;
+            justify-content: center;
+        }
+        .con{
+            display: grid;
+            grid-template-columns: 400px 400px;
+            grid-template-rows: 30px auto auto;
+
+        }
+        .first{
+            grid-row: 1/2;
+            grid-column:1/3;
+            background-color: gainsboro;
+            border: 2px solid black;
+            padding-top: 1px;
+            text-align: center;
+            font-size: larger;
+            border-radius: 5px;
+            border-bottom-color: mediumpurple;
+        }
+        .second{
+            margin-top: 12px;
+            grid-row: 2/3;
+            background-color: snow;
+            grid-column: 1/3;
+            display: grid;
+            grid-template-columns: 400px auto;
+            grid-template-rows: 400px auto;
+            border: 5px solid powderblue;
+            width: 100%;
+            border-radius: 5px;
+        }
+        .inter{
+            grid-column: 1/2;
+            border-radius:5px ;
+            padding-left: 22px;
+        }
+        .im1{
+            justify-self: center;
+            grid-column: 2/3;
+            width: 100%;
+            height: 100%;
+        }
+        .third{
+            margin-top: 12px;
+            grid-row: 3/4;
+            grid-column: 1/3;
+            display: grid;
+            grid-template-columns: 400px 400px;
+            grid-template-rows: auto;
+            grid-gap: 10px;
+            border: 5px solid mediumpurple;
+            width: 100%;
+            background-color: mintcream;
+            border-radius: 5px;
+        }
+        .im2{
+            height:50%;
+            justify-self: center;
+            float: right;
+            width: 95%;
+        }
+        /*im3{
+            float: right;
+        }*/
+        .fourth{
+            margin-top: 12px;
+            grid-row: 4/5;
+            grid-column: 1/3;
+            display: grid;
+            grid-template-columns: 400px 400px;
+            grid-template-rows: auto;
+            grid-gap: 10px;
+            border: 5px solid cornflowerblue;
+            width: 100%;
+            background-color: paleturquoise;
+            border-radius: 5px;
+        }
+        .im5{
+            width: 100%;
+        }
+        .im6{
+            width: 100%;
+        }
+        .heads1{
+            font-size: larger;
+        }
+    </style>
 </head>
 <body>
-    <p>Please enter html code for internet protocols</p>
-    <p>please remember to link to home</p>
+<section class="container">
+<section class="con">
+<header class="first">Internet Protocols</header>
+    <section class="second">
+    <article class="inter">
+        <dl>
+            <dt>
+                Internet protocol
+            </dt>
+            <dd>
+                Internet protocols are a set of rules for exchanging messages between computers (techopedia, 2019).
+            </dd>
+        </dl>
+        <p>We have different types of internet protocol which are:</p>
+        <ul>
+
+              <li>FTP (file transfer protocol)</li>
+                <li>Gopher</li>
+                <li>Telnet</li>
+                <li>HTTP (hypertext transfer protocol)</li>
+                <li>POP (Post office protocol)</li>
+                <li>Ethernet</li>
+        </ul>
+
+    </article>
+        <article>
+            <img src="images/internet-protocol.png" alt="demonstration of internet protocol" class="im1">
+
+        </article>
+    </section>
+    <section class="third">
+        <article>
+
+            <dl>
+                <dt>
+                    <h1>FTP (file transfer protocol)</h1>
+                </dt>
+                <dd>
+                    FTP is communication used for transferring files from the server to the client (wikipedia, 2021). It is commonly used not only on a computer but rather multiple devices such as mobile devices, smart television, and video games but this requires a platform called N-screen (Kim, 2018). It requires an application to work.
+
+                </dd>
+            </dl>
+                <p>This is how it works:</p>
+                <img src="images/ftp.jpg" alt="demonstration of internet protocol" class="im2">
+
+
+        </article>
+        <article>
+            <dl>
+                <dt>
+                    <h1>Gopher</h1>
+                </dt>
+                <dd>
+                    A communication protocol designed for searching and retrieving documents on internet protocol (wikipedia, 2021). It offers downloadable content with some descriptions; the files are arranged in the remote computer like the files that are arranged in a computer it’s not mainly used anymore.
+                </dd>
+            </dl>
+            <p>Example of gopher:</p>
+            <img src="images/Gopher.png" alt="demonstration of internet protocol" class="im3">
+
+        </article>
+    </section>
+        <section class="fourth">
+        <article>
+            <dl>
+                <dt>
+                    <h1>Telnet</h1>
+                </dt>
+                <dd>
+                    An application protocol is used to access a virtual computer over the internet and have communication (Fitzgibbons, 2021). It follows the user commands this protocol can use file transfer protocol (FTP) and HTTP.
+                </dd>
+            </dl>
+            <p>
+                How it works:
+            </p>
+            <ul>
+                <li>The user can send the commands to find which ports are open
+                </li>
+                <li>
+                    Connect remotely to the virtual machine but need to enter their username and password
+                </li>
+                <li>
+                    They can send files that using the FTP
+
+                </li>
+            </ul>
+            <p>
+                The use of telnet:
+            </p>
+            <ul>
+                <li>
+                    The user can edit the files
+                </li>
+                <li>
+                    Check emails
+                </li>
+                <li>
+                    Run various applications
+
+                </li>
+                <li>
+                    Play games
+                </li>
+            </ul>
+            <img src="images/telnet.png" alt="telnet image" class="im5">
+        </article>
+        <article class="five">
+            <dl>
+                <dt>
+                    <h1>HTTP</h1>
+                </dt>
+                <dd>
+                    The HTTP protocol is a protocol used to fetch documents such as HTML documents. It is the exchange of data between the web and the client meaning the requests are made by the user on the web.
+                </dd>
+            </dl>
+            <img src="images/http.png" alt="http image" class="im6">
+        </article>
+
+    </section>
+</section>
+</section>
+
 </body>
 </html>
