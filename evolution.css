@@ -1,0 +1,40 @@
+body{
+    background-color: #5499c7;
+}
+#main{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    border: 5px solid ;
+    border-color: rgb(134, 25, 25);
+    background-color: #7fb3d5;
+    border-radius: 10px;
+    margin: auto;
+    width: 800px;
+    height: 1300px;
+}
+.rows{
+    border: 1px solid black;
+    
+}
+/*===========================================================*/
+h3{
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 1px;
+    font-family: sans-serif;
+    color: rgb(201, 224, 67);
+}
+hr{
+    width: 100px;
+    margin-top: 0;
+    
+}
+p{
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(52, 53, 46);
+}
+#img{
+    width: 300px;
+    height: 100px;
+}
