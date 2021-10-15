@@ -1,0 +1,12 @@
+Albrecht Ohsiek - 578445
+	Overview
+	History
+Ritshidze Nemudzivhadi - 578428
+	Internet Protocal
+	WWW vs Internet
+Roan Palm - 578632
+	Landing Page
+	Evolution of the Internet
+Jacobus Gerhardus Lotter - 578559
+	Web Application Architecture
+	Client- Server Side Engeneering
